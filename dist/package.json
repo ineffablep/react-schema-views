@@ -1,0 +1,26 @@
+{
+  "name": "react-schema-views",
+  "version": "1.0.0",
+  "description": "Schema parser to Render React Components from JS Object or JSON",
+  "main": "ReactSchemaViews.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineffablep/react-schema-views.git"
+  },
+  "keywords": [
+    "React",
+    "JSON",
+    "Schema",
+    "Parser",
+    "JS"
+  ],
+  "author": "Sireesh Pangaluri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ineffablep/react-schema-views/issues"
+  },
+  "homepage": "https://github.com/ineffablep/react-schema-views#readme"
+}
