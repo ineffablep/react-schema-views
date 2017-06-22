@@ -2,7 +2,7 @@ import { DOM, createElement } from "react";
 
 let _componentMap = null;
 
-export default class ReactSchemaView {
+export default class ReactSchemaViews {
   parseSchema(schema) {
     let element = null;
     let elements = null;

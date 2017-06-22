@@ -6,8 +6,8 @@ import CheckboxField from "./Components/CheckboxField";
 import welcomeSchema from "./schemas/welcomeSchema";
 import contactFormSchema from "./schemas/contactFormSchema.json";
 
-// If a package dependency: import ReactJsonSchema from 'react-schema-view';
-import ReactSchemaView from "../lib/ReactSchemaView";
+// If a package dependency: import ReactJsonSchema from 'react-schema-views';
+import ReactSchemaView from "../lib/ReactSchemaViews";
 
 class App extends Component {
   renderWelcomeSchema() {
