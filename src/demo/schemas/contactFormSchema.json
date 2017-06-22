@@ -1,0 +1,34 @@
+{
+      "component": "h2",
+      "className": "text-center",
+      "text": "Schema Driven Contact From!",
+      "children": [
+            {
+                  "component": "ContactForm",
+                  "title": "Tell us a little about yourself, we\"d appreciate it",
+                  "children": [
+                        {
+                              "component": "StringField",
+                              "componentPath": "../demo/Components/StringField",
+                              "label": "What\"s your name",
+                              "name": "fullname",
+                              "help": "It\"s okay, don\"t be shy:)"
+                        },
+                        {
+                              "component": "CheckboxField",
+                              "checkboxes": [
+                                    {
+                                          "label": "I\"m already checked!",
+                                          "defaultChecked": true,
+                                          "key": 0
+                                    },
+                                    {
+                                          "label": "Here\"s another",
+                                          "key": 10
+                                    }
+                              ]
+                        }
+                  ]
+            }
+      ]
+}
